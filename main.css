@@ -1,17 +1,53 @@
 p {
-    font-size: x-large
-  }  
+    font-size: x-large;
+}
 
-  h1 {
-    background-color:brown
-  }
+h1 {
+   text-align: center;
+   font-size: xx-large;
+   color: yellow;
+}
 
-  .aluno{
-    color:cyan;
-    text-shadow: 2ex; 
-  }
+.idk {
+     text-align: center;
+     font-size: center;
+}
 
-  #curso {
-      text-align: center;
-  }
+#idk-2 {
+  font-size: medium;
+  text-align: left;
+}
 
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.flex-item {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: x-large;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.coluna-container {
+  width: 40%;
+}
+
+.linha {
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.coluna {
+  float: left;
+  flex-direction: column;
+
+
+}
